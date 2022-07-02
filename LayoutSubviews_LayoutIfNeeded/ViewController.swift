@@ -8,12 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var viewHA: UIView!
+    
+    let redView = RedView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewHA.layer.cornerRadius = viewHA.frame.height / 2
+       
     }
 
     @IBAction func Button(_ sender: Any) {
