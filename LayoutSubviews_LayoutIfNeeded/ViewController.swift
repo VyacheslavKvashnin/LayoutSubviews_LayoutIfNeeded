@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
+        view.addSubview(redView)
+        
+//        redView.center = view.center
+        
     }
 
     @IBAction func Button(_ sender: Any) {
