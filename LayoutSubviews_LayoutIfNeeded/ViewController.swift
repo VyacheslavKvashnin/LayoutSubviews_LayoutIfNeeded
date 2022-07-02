@@ -9,11 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var viewHA: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        viewHA.layer.cornerRadius = viewHA.frame.height / 2
     }
 
-
+    @IBAction func Button(_ sender: Any) {
+        
+    }
 }
 
